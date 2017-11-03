@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDB.UI", "CarsDB.UI\CarsDB.UI.csproj", "{EF77AECC-7243-470B-91CB-E21911DF0C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarsDB.Classes", "CarsDB.Classes\CarsDB.Classes.csproj", "{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF77AECC-7243-470B-91CB-E21911DF0C6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF77AECC-7243-470B-91CB-E21911DF0C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF77AECC-7243-470B-91CB-E21911DF0C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF77AECC-7243-470B-91CB-E21911DF0C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F994EA9A-24A5-44F7-98EA-E1A64EAC1270}
+	EndGlobalSection
+EndGlobal
