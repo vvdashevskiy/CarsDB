@@ -26,6 +26,7 @@ namespace CarsDB.UI
             InitializeComponent();
             using (var context = new Context())
             {
+                context.Cars.ToList();
                 context.CarTypes.ToArray();
             }
         }
