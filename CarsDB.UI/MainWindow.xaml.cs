@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CarsDB.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,10 @@ namespace CarsDB.UI
         public MainWindow()
         {
             InitializeComponent();
+            using (var context = new Context())
+            {
+                context.CarTypes.ToArray();
+            }
         }
     }
 }

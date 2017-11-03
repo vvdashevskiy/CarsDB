@@ -101,5 +101,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CarsDB.Classes\CarsDB.Classes.csproj">
+      <Project>{AFFA47F1-5411-4276-B555-9CE7DFD08D5B}</Project>
+      <Name>CarsDB.Classes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
